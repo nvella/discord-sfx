@@ -1,0 +1,12 @@
+{
+    "token": "DISCORD_BOT_TOKEN_HERE",
+    "channel": "YOUR_CHANNEL_ID_HERE",
+    "log": "PATH_TO_MC_LOG",
+    "sounds": [
+        {
+            "type": "info",
+	        "trigger": "^(\\w*) (.*)(shot by|to death|cactus|drowned|experienced kinetic|removed an elytra|blew up|blown up|hit the ground|fell|doomed to fall|shot off|blown|squashed|flames|burned|burnt|fire|bang|lava|lightning|slain by|finished off|fireballed|killed by|starved|suffocated|squished|fell out|withered away|pummeled by|pummeled|died)",
+	        "file": "curb.wav"
+	    }
+    ]
+}

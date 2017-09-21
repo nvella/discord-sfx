@@ -59,8 +59,9 @@ class DiscordSfx {
             const content = split.slice(3).join(' ');
             for(let def of this.config.sounds) {
                 if(def.type === 'info' && content.match(def.trigger)) {
-                    console.log(`Playing file ${def.file}`)
-                    this.channel.playFile(def.file);
+                    const file = def.files[Math.floor(Math.random() * def.files.length)];
+                    console.log(`Playing file ${file}`);
+                    this.channel.playFile(file);
                 }
             }
         }

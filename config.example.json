@@ -6,7 +6,7 @@
         {
             "type": "info",
 	        "trigger": "^(\\w*) (.*)(shot by|to death|cactus|drowned|experienced kinetic|removed an elytra|blew up|blown up|hit the ground|fell|doomed to fall|shot off|blown|squashed|flames|burned|burnt|fire|bang|lava|lightning|slain by|finished off|fireballed|killed by|starved|suffocated|squished|fell out|withered away|pummeled by|pummeled|died)",
-	        "file": "curb.wav"
+	        "files": ["curb.wav"]
 	    }
     ]
 }

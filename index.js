@@ -55,7 +55,7 @@ class DiscordSfx {
         const split = line.split(' ');
 
         // Parse INFO logs
-        if(split.length > 4 && split[1] + split[2] == '[Serverthread/INFO]:') {
+        if(split.length > 4 && split[1] + split[2] == '[Serverthread/INFO]:' && split[4] !== 'issued') {
             const content = split.slice(3).join(' ');
             for(let def of this.config.sounds) {
                 if(def.type === 'info' && content.match(def.trigger)) {

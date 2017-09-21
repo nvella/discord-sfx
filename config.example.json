@@ -1,7 +1,7 @@
 {
     "token": "DISCORD_BOT_TOKEN_HERE",
     "channel": "YOUR_CHANNEL_ID_HERE",
-    "log": "PATH_TO_MC_LOG",
+    "log": "PATH_TO_LOG",
     "sounds": [
         {
             "type": "info",
